@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chrono Engine</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body class="light-mode">
+    <button id="mode-toggle">Toggle Dark Mode</button>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="download.html">Download</a>
+    </div>
+
+    <div class="header">
+        <h1>Welcome to Chrono Engine</h1>
+        <p>The ultimate tool for creating your own video games.</p>
+    </div>
+
+    <div class="content">
+        <h2 id="home">Home</h2>
+
+        <h2 id="about">About Chrono Engine</h2>
+        <p>Chrono Engine is a powerful, flexible, and intuitive tool for creating video games. It supports a wide range of game types and platforms. Chrono Engine uses ImGui for its user interface, providing a simple and easy-to-use interface for game developers. It also uses Direct3D 11 for rendering, with support for Direct3D 12 and OpenGL ES3, ensuring high performance and compatibility with a wide range of hardware.</p>
+
+
+        <h2 id="features">Features</h2>
+        <ul>
+            <li>Powerful rendering engine</li>
+            <li>Flexible asset management system</li>
+            <li>Intuitive design interface</li>
+            <!-- Add more features as needed -->
+        </ul>
+
+        <h2 id="download">Get Started</h2>
+        <p>Download Chrono Engine and start creating your own games today!</p>
+        <a href="https://www.dropbox.com/scl/fi/7cj1ijllovt13aj01o13c/ChronoInstaller.exe?rlkey=d1bxw0vmmz4qe731qw99qd64b&dl=1" class="download-btn" download>Download Now</a>
+    </div>
+
+    <div class="footer">
+        © 2023 Chrono Engine
+    </div>
+
+    <script>
+        document.getElementById('mode-toggle').addEventListener('click', function() {
+            var body = document.body;
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                body.classList.add('light-mode');
+            } else {
+                body.classList.remove('light-mode');
+                body.classList.add('dark-mode');
+            }
+        });
+    </script>
+</body>
+</html>
