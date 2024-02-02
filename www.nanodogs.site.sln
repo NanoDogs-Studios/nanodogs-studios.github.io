@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www.nanodogs.site", ".", "{B54CA57D-3649-4125-88D2-283642D90233}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50672"
+		Debug.AspNetCompiler.PhysicalPath = "..\www.nanodogs.site\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50672\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50672"
+		Release.AspNetCompiler.PhysicalPath = "..\www.nanodogs.site\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50672\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50672"
+		SlnRelativePath = "..\www.nanodogs.site\"
+		StartServerOnDebug = "true"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B54CA57D-3649-4125-88D2-283642D90233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54CA57D-3649-4125-88D2-283642D90233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {364D73FD-4741-4C74-A257-D6D247258971}
+	EndGlobalSection
+EndGlobal
