@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="text/css.css">
+    <script src="text/particles.js"></script>
+</head>
+<body class="dark">
+    <div id="content-card">
+        
+
+        <div id="main">
+            <h1>Contact us!</h1>
+            <a href="mailto:nanodogstudios@gmail.com" , class="link-button">Send us an Email!</a>
+            <a href="https://discord.gg/tTZYAQTvRF" , class="link-button">Join our Discord!</a>
+        </div>
+    </div>
+    <div id="particles-js"></div>
+    <nav>
+        <div id="profile" class="hide">
+            <img id="profilePic" src="images/default-profile.png" , class="pfp" alt="Profile Picture">
+            <div id="dropdown" class="hide">
+                <p id="displayName"></p>
+                <a href="#" id="profileLink">Profile</a>
+                <button id="btnLogout">Logout</button>
+            </div>
+        </div>
+
+        <button id="theme-button">Toggle Theme</button>
+        <button id="btnLogin">Login</button>
+        <button id="btnLogout" class="hide">Logout</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Games</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <script src="text/app.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+        import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyB-RiVNi0viUfpaoQ54xRc_3uL7EVI-0eg",
+            authDomain: "nanodogs-studios.firebaseapp.com",
+            projectId: "nanodogs-studios",
+            storageBucket: "nanodogs-studios.appspot.com",
+            messagingSenderId: "448347458603",
+            appId: "1:448347458603:web:24842e3b922135103c6e6e",
+            measurementId: "G-LYVPJ1P54B"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const auth = getAuth();
+        const provider = new GoogleAuthProvider();
+
+        // Add login event
+        document.getElementById('btnLogin').addEventListener('click', () => {
+            signInWithPopup(auth, provider)
+                .then((result) => {
+                    // This gives you a Google Access Token. You can use it to access the Google API.
+                    const credential = GoogleAuthProvider.credentialFromResult(result);
+                    const token = credential.accessToken;
+                    // The signed-in user info.
+                    const user = result.user;
+                    // IdP data available using getAdditionalUserInfo(result)
+                    // ...
+                    window.open('welcome.html', '_blank'); // This line opens a new tab or window
+                    console.log(result);
+                    console.log('Success.. You are signed in');
+                }).catch((error) => {
+                    // Handle Errors here.
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    // The email of the user's account used.
+                    const email = error.customData.email;
+                    // The AuthCredential type that was used.
+                    const credential = GoogleAuthProvider.credentialFromError(error);
+                    // ...
+                    console.log(error);
+                    console.log('Failed to sign in');
+                });
+        });
+
+        // Add logout event
+        document.getElementById('btnLogout').addEventListener('click', () => {
+            auth.signOut().then(() => {
+                console.log('Signed Out');
+            }, (error) => {
+                console.error('Sign Out Error', error);
+            });
+        });
+
+        // Add a realtime listener
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                console.log(user);
+                document.getElementById('btnLogout').classList.remove('hide');
+                document.getElementById('profile').classList.remove('hide');
+                document.getElementById('btnLogin').classList.add('hide');
+                document.getElementById('displayName').textContent = user.displayName;
+                document.getElementById('profilePic').src = user.photoURL;
+            } else {
+                document.getElementById('profile').classList.add('hide');
+                document.getElementById('btnLogin').classList.remove('hide');
+                document.getElementById('profilePic').src = 'default-profile.png';
+            }
+        });
+
+        document.getElementById('profilePic').addEventListener('click', () => {
+            const dropdown = document.getElementById('dropdown');
+            if (dropdown.classList.contains('hide')) {
+                dropdown.classList.remove('hide');
+            } else {
+                dropdown.classList.add('hide');
+            }
+        });
+
+
+    </script>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var nav = document.querySelector('nav');
+            var toggleNavButton = document.createElement('button');
+            toggleNavButton.innerHTML = '☰';
+            toggleNavButton.id = 'toggle-nav-button';
+            document.body.appendChild(toggleNavButton);
+
+            toggleNavButton.addEventListener('click', function () {
+                nav.classList.toggle('collapsed');
+            });
+
+            var themeButton = document.getElementById('theme-button');
+            var body = document.body;
+
+            // Load the saved theme from localStorage.
+            var savedTheme = localStorage.getItem('theme');
+            if (savedTheme) {
+                body.className = savedTheme;
+            }
+
+            themeButton.addEventListener('click', function () {
+                body.classList.toggle('light');
+
+                // Save the current theme to localStorage.
+                localStorage.setItem('theme', body.className);
+            });
+        });
+
+    </script>
+</body>
+</html>

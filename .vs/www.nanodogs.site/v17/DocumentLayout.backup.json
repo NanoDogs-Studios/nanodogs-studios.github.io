@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|d:\\codingjourney\\coding\\html\\www.nanodogs.site\\nanodogs-studios.github.io\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\text\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:text\\css.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:projects.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\games\\locomotion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:games\\locomotion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:contact.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B54CA57D-3649-4125-88D2-283642D90233}|D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io|solutionrelative:404.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T12:01:16.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Locomotion.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\games\\Locomotion.html",
+              "RelativeDocumentMoniker": "games\\Locomotion.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\games\\Locomotion.html",
+              "RelativeToolTip": "games\\Locomotion.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T11:34:40.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "projects.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\projects.html",
+              "RelativeDocumentMoniker": "projects.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\projects.html",
+              "RelativeToolTip": "projects.html",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T11:11:52.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contact.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\contact.html",
+              "RelativeDocumentMoniker": "contact.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\contact.html",
+              "RelativeToolTip": "contact.html",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T11:08:31.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "404.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\404.html",
+              "RelativeDocumentMoniker": "404.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\404.html",
+              "RelativeToolTip": "404.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T10:13:46.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "css.css",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\text\\css.css",
+              "RelativeDocumentMoniker": "text\\css.css",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\text\\css.css",
+              "RelativeToolTip": "text\\css.css",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAWwFgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T09:55:05.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "about.html",
+              "DocumentMoniker": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\about.html",
+              "RelativeDocumentMoniker": "about.html",
+              "ToolTip": "D:\\CodingJourney\\Coding\\HTML\\www.nanodogs.site\\nanodogs-studios.github.io\\about.html",
+              "RelativeToolTip": "about.html",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-22T09:51:29.614Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
